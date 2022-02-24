@@ -1,25 +1,8 @@
-# Alchemy React Base Template
+# Abriel's Practice With React Libraries
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Visit Abriels Live Netlify site here:** [Netlify Live Site]()
 
-Use this template for all your "from scratch" deliverables. To start, simply run
+## The Golden Rule:
+🦸 🦸‍♂️ Stop starting and start finishing. 🏁
 
-- `npm install`
-- `npm start`
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***If you work on more than one feature at a time, you are guaranteed to multiply your bugs and your anxiety.***
