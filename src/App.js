@@ -1,12 +1,19 @@
 // import logo from './logo.svg';
 import './App.css';
+import data from './Data/data';
+// import DataGrid from 'react-data-grid';
+// import { VictoryBar, VictoryChart, VictoryAxis } from 'victory';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        HELLO
-      </header>
+      <div className="App-header">
+        HELLO      
+      </div>
+      <div>
+        {/* <DataGrid rows={data}/> */}
+      </div>
     </div>
   );
 }
