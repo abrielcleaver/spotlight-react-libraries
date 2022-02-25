@@ -17,11 +17,15 @@ function App() {
           columns={generateColumns(data)}
           rows={data}/>
       </div>
-      <VictoryBar domainPadding={50} />
+      <VictoryBar 
+        horizontal 
+        domainPadding={50} />
 
-      <VictoryChart domainPadding={50} />
+      <VictoryChart 
+        domainPadding={50} />
 
-      <VictoryPie domainPadding={50} />
+      <VictoryPie 
+        domainPadding={50} />
 
     </div>
   );
