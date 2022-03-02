@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import data from './Data/data';
+import DataGrid from 'react-data-grid';
+import { generateColumns } from './Data/data-utils';
+import { VictoryBar, VictoryChart, VictoryPie } from 'victory';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <Header />
+      </div>
+      <div>
+        <DataGrid 
+          columns={generateColumns(data)}
+          rows={data}/>
+      </div>
+      <div className='charts'>
+
+        <VictoryBar 
+          horizontal 
+          domainPadding={33} />
+
+        <VictoryChart 
+          domainPadding={33} />
+
+        <VictoryPie 
+          domainPadding={33} />
+      </div>
+
     </div>
   );
 }
